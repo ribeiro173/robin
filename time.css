@@ -1,0 +1,71 @@
+header{
+    font-size: 45px;
+    background-color:azure;
+    color:black;
+    padding: 25px;
+    font-weight:bold;
+    text-align: center;
+    border-bottom: 2px solid grey;
+}
+body{
+    background: #27272c;
+    font-style: oblique;
+}
+.Times{
+    width: 980px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.Times li{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: middle;
+    margin: 0 2% auto;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px solid #000000;
+    border-radius: 10px;
+}
+li img{
+    width: 100px;
+    height: 100px;
+}
+li img:hover{
+    width: 150px;
+    height: 150px;
+}
+.Times li:hover{
+    border: 8px solid azure;
+    padding: 50px 0px;
+    background-color: lightslategray;
+    vertical-align: middle;
+}
+.time-descricao{
+    font-size: 12px;
+}
+nav a:hover{
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background:lime;
+    border-bottom: 2px solid green;
+}
+footer{
+    text-align: center;
+    border-top: 3px solid grey;
+}
+.Times h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+p{
+    background:azure;
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 2px solid gray;
+}
+.mario:hover{
+    border: 5px solid white; 
+}
